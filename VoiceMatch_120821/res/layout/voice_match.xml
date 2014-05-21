@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_match_info">
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="319"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="200"/>
+            
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="240"
+                android:checkedButton="@+id/man1"
+                android:orientation="horizontal"
+                android:textColor="#000000">
+
+                <project.voicematch.ui.CustomRadio
+                    android:id="@+id/man1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="120"
+                    android:text="남자"
+                    android:textColor="#ffffff" />
+
+                <project.voicematch.ui.CustomRadio
+                    android:id="@+id/woman1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="120"
+                    android:text="여자"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+            
+                <View 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"/>
+            
+        </LinearLayout>
+        
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"/>
+            
+            <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="52"
+            android:orientation="horizontal">
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="200"/>
+            
+            <project.voicematch.ui.CustomEditText
+                android:id="@+id/nameedit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="240"
+                android:maxLength="5"
+                android:singleLine="true"
+                android:imeOptions="actionDone" />
+            
+                <View 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"/>
+            
+        </LinearLayout>
+        
+                <View 
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12"/>
+                
+                <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="200"/>
+            
+            <RadioGroup
+                android:id="@+id/radiogroup2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="240"
+                android:checkedButton="@+id/man2"
+                android:orientation="horizontal"
+                android:textColor="#000000">
+
+                <project.voicematch.ui.CustomRadio
+                    android:id="@+id/man2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="120"
+                    android:text="남자"
+                    android:textColor="#ffffff" />
+
+                <project.voicematch.ui.CustomRadio
+                    android:id="@+id/woman2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="120"
+                    android:text="여자"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+            
+                <View 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"/>
+            
+        </LinearLayout>
+        
+                    <View 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"/>
+            
+            <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="52"
+            android:orientation="horizontal">
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="200"/>
+            
+            <project.voicematch.ui.CustomEditText
+                android:id="@+id/nameedit2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="240"
+                android:maxLength="5"
+                android:singleLine="true" />
+            
+                <View 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"/>
+            
+        </LinearLayout>
+        
+                <View 
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"/>
+                
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="68"
+		    android:orientation="horizontal">
+		    
+		    <View 
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="152"/>
+		    
+		    <ImageView
+                android:id="@+id/go"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="176"
+                android:src="@drawable/match_next" />
+		    
+		    <View 
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="152"/>
+		    
+		</LinearLayout>         
+		
+		    <View 
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="22"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>

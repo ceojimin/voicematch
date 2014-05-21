@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Voice Match</string>
+    <string name="recordingmanual">"♬ 목소리 녹음 방법\n\n	아래 녹음 시작하기 버튼을 누르고 누른 즉시 바로, '안녕하세요'를 소리내어 말해주시되 버튼이 활성화될 때까지(약 2초 간) 끝을 길게 끌어주세요^ ^ 별도의 버튼을 누르지 않아도 약 2초가 지나면 자동으로 녹음이 중지 되면서 버튼이 활성화됩니다.\n\n♪ 주의사항\n\n	1. 목소리의 기준은 평상시 말하는 소리입니다.\n	2. 소음이 있는 곳에서는 정확한 측정이 되지 않습니다."</string>
+
+</resources>

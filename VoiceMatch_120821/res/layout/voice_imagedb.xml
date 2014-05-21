@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image_result"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="330" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.4"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="96" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="156"
+                android:text="db1"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="222"
+                android:text="db6"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.4"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="96" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="156"
+                android:text="db2"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="222"
+                android:text="db7"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.4"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="96" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="156"
+                android:text="db3"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="222"
+                android:text="db8"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.4"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="96" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="156"
+                android:text="db4"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="222"
+                android:text="db9"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35.4"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="96" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/dbstring5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="156"
+                android:text="db5"
+                android:textColor="#FF5050"
+                android:textSize="9pt" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="222" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/textname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="105"
+                android:text="이름"
+                android:textColor="#ffffff"
+                android:textSize="10pt" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25" />
+
+            <project.voicematch.ui.CustomText
+                android:id="@+id/fftvalue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="140"
+                android:text="123.45"
+                android:textColor="#ffffff"
+                android:textSize="10pt" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=" 28" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="83"
+                android:orientation="vertical" >
+                
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10" />
+
+                <ImageView
+                    android:id="@+id/group"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="30"
+                    android:src="@drawable/btn_blackrose" />
+                
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="49" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="65" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="68"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="152" />
+
+            <ImageView
+                android:id="@+id/gallery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="176"
+                android:src="@drawable/pic_save" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="152" />
+        </LinearLayout>
+        
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"/>
+    </LinearLayout>
+
+</RelativeLayout>
